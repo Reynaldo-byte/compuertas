@@ -23,7 +23,7 @@ p{
                 font-size: 22px;
                 border: groove 4px red;
             }
-            @media  only screen and (orientation:portrait) {
+            @media  only screen  {
             	#mensaje{
 	position: absolute;
 
@@ -36,7 +36,7 @@ p{
 	border-radius: 10%;
 }
             }
-             @media only screen and (orientation:landscape) {
+           
                     	#mensaje{
 	position: absolute;
 
