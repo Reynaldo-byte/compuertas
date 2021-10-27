@@ -40,7 +40,7 @@ only screen and (min-width: 481px)   {
        @media  only screen and (min-width: 320px) and (max-width: 480px) {  
                     	#mensaje{
 	    position: absolute;
-    top: 15%;
+    top: 20%;
     border-color: green;
     border-style: solid;
     height: 10%;
