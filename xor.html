@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="ESTILO.CSS">
+</head>
+<body>
+	<script src="script.JS"></script>
+	<div style="width:60%">
+		<p>Ingresa valores 0 y 1 para A y B luego has clic sobre la compuerta para generar el resultado</p>
+		
+		<t style="top: 9%;left: 39%;width: 3%;height: 3%;position: absolute; background: white;" > A</t><input type="number" id="number" style="top: 9%;left: 43%;width: 3%;height: 3%;position: absolute;"><t style="top: 13%;left: 39%;width: 3%;height: 3%;position: absolute; background: white;" > B</t><input type="number" id="number2" style="top: 13%;left: 43%;width: 3%;height: 3%;position: absolute;"><img id="xor_img" width="20%" src="recursos/XOR_estandar.png" onclick="xor();;" onmouseout="xor_apagar()" onmouseover="xor_encender()" ><input type="number" id="result" style="top: 11%;left: 54%;width: 3%;height: 3%;position: absolute; background: white;" disabled><t style="top: 12%;left: 60%;width: 3%;height: 3%;position: absolute; background: white;" > Z</t></p></t>
+		<table  style="top: 11%;left: 70%;position: absolute; " >
+			<tr >
+				<th>A</th>
+				<th>B</th>
+				<th>Z</th>
+			</tr>
+				<tr id="fila_1" hidden>
+				<th>0</th>
+				<th>0</th>
+				<th>0</th>
+			</tr>
+				<tr id="fila_2" hidden>
+				<th>1</th>
+				<th>0</th>
+				<th>1</th>
+			</tr>
+				<tr id="fila_3" hidden>
+				<th>0</th>
+				<th>1</th>
+				<th>1</th>
+			</tr>
+				<tr id="fila_4" hidden>
+				<th>1</th>
+				<th>1</th>
+				<th>0</th>
+			</tr>
+		</table>
+	
+	</div>
+	<button id="atras" onclick="window.history.back();">Atras</button>
+</body>
+</html>
