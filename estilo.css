@@ -129,3 +129,15 @@ DIV{
 	margin: 0 auto;
 
 }
+    @media only screen and (orientation:portrait) {
+        #wrapper { display:none; }
+        #aviso-movil-horizontal { z-index=0;
+          display:block;
+      font-size: 1rem;
+                text-align: center;
+                font-weight: bolder;}
+      
+    }
+    @media only screen and (orientation:landscape) {
+        #aviso-movil-horizontal { display:none; }
+    }
