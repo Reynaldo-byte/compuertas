@@ -91,9 +91,12 @@ font-family: calibri;
 	margin: 0 auto;
 	border-style: solid;
 	border-radius: 1rem;
+	
 
 
 }
+#contenido div{float:left; }
+
 #and{
 
 
