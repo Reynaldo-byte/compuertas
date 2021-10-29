@@ -95,31 +95,31 @@ font-family: calibri;
 }
 #and{
 
-
+float:left;
 	left: 20%;
 
 }
 #or{
 
 
-
+float:left;
 	margin-left: 40%;
 
 }
 #nand{
 
-	
+	float:left;
 	
 	left: 60%;
 }
 #xor{
-
+float:left;
 
 	margin-left: 40%;
 }
 #not{
 	
-	
+	float:left;
 
 	left: 60%;
 }
