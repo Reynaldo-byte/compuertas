@@ -13,7 +13,7 @@ function empezar() {
 
 function or_encender() {
 	document.getElementById("or_img").src="recursos/OR_encendido.png";
-	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta OR</p><p>La compuerta O lógica o compuerta OR es una las compuertas más simples dentro de la Electrónica Digital</p>";
+	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta OR</p><br><p>La compuerta O lógica o compuerta OR es una las compuertas más simples dentro de la Electrónica Digital</p>";
 
 }
 function or_apagar() {
@@ -22,7 +22,7 @@ function or_apagar() {
 }
 function and_encender() {
 	document.getElementById("and_img").src="recursos/AND_encendido.png"
-	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta AND</p><p>La compuerta AND o Y lógica es una de las compuertas más simples dentro de la Electrónica Digital.</p>";
+	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta AND</p><br><p>La compuerta AND o Y lógica es una de las compuertas más simples dentro de la Electrónica Digital.</p>";
 
 }
 
@@ -32,7 +32,7 @@ function and_apagar() {
 }
 function xor_encender() {
 	document.getElementById("xor_img").src="recursos/XOR_encendido.png"
-	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta XOR</p><p>En la electrónica digital hay unas compuertas que no son comunes.Una de ellas es la compuerta XOR ó cinouerta O exclusiva ó compuerta O excluyente</p>";
+	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta XOR</p><br><p>En la electrónica digital hay unas compuertas que no son comunes.Una de ellas es la compuerta XOR ó cinouerta O exclusiva ó compuerta O excluyente</p>";
 
 }
 function xor_apagar() {
@@ -41,7 +41,7 @@ function xor_apagar() {
 }
 function nand_encender() {
 	document.getElementById("nand_img").src="recursos/NAND_encendido.png"
-	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta NAND</p><p>Una compuerta NAND (NO Y) de dos entradas se puede implementar con la concatenación de una compuerta AND o \"Y\" u una compuerta NOT o \"No\" o inversora</p>";
+	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta NAND</p><br><p>Una compuerta NAND (NO Y) de dos entradas se puede implementar con la concatenación de una compuerta AND o \"Y\" u una compuerta NOT o \"No\" o inversora</p>";
 
 }
 function nand_apagar() {
@@ -50,7 +50,7 @@ function nand_apagar() {
 }
 function not_encender() {
 	document.getElementById("not_img").src="recursos/NOT_encendido.png"
-	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta NOT</p><p>En la electrónica digital, no se podrian lograr muchas cosas si no existiera la compuerta NOT, tambien llamada compuerta inversora</p>";
+	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta NOT</p><br><p>En la electrónica digital, no se podrian lograr muchas cosas si no existiera la compuerta NOT, tambien llamada compuerta inversora</p>";
 
 }
 function not_apagar() {
