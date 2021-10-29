@@ -124,10 +124,7 @@ font-family: calibri;
 	left: 60%;
 }
 
-DIV{
-	margin: 0 auto;
 
-}
     @media only screen and (orientation:portrait) {
         #wrapper { display:none; }
         #aviso-movil-horizontal { z-index=0;
