@@ -26,9 +26,9 @@ p{
            @media 
 only screen and (min-width: 481px)   {
             	#mensaje{
-	margin-left:0 auto;
+	margin-left:33%;
 	   display:flex;
-	margin-top: 50%;
+	margin-top: 25%;
 			width: 40%;
 	border-color: green;
 	border-style: solid;
@@ -41,7 +41,7 @@ only screen and (min-width: 481px)   {
        @media  only screen and (min-width: 320px)  {  
                     	#mensaje{
 	
-   display:flex;margin-left:0 auto;
+   display:flex;margin-left:33%;
 			width: 40%;	margin-top: 25%;
     border-color: green;
     border-style: solid;
