@@ -11,8 +11,8 @@ function empezar() {
 	document.getElementById("siguiente").setAttribute("hidden","");
 	}
 function atras(){
-window.history.back();
-empezar();}
+window.history.back(empezar(););
+}
 
 function or_encender() {
 	document.getElementById("or_img").src="recursos/OR_encendido.png";
