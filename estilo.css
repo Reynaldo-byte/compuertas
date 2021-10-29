@@ -95,6 +95,14 @@ font-family: calibri;
 
 
 }
+#contenido #compuertas{
+	margin: 0 auto;
+	border-style: solid;
+	border-radius: 1rem;
+	
+
+
+}
 #contenido div{float:left; }
 
 #and{
