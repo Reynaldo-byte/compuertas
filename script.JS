@@ -11,7 +11,8 @@ function empezar() {
 	document.getElementById("siguiente").setAttribute("hidden","");
 	}
 function atras(){
-window.history.back(empezar());
+window.history.back();
+	
 }
 
 function or_encender() {
@@ -196,3 +197,4 @@ function sound() {
 
 audio.play();
 }
+empezar();
