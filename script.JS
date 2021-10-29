@@ -6,6 +6,7 @@ audio.src = "recursos/61.mp3";
 document.body.appendChild(audio);
 function empezar() {
 	document.getElementById("mensaje").removeAttribute("hidden");
+	document.getElementById("mensaje").removeAttribute("style");
 	document.getElementById("compuertas").removeAttribute("hidden");
 	document.getElementById("siguiente").setAttribute("hidden","");
 	}
