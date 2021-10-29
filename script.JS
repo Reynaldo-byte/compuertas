@@ -12,7 +12,7 @@ function empezar() {
 	}
 function atras(){
 window.history.back();
-	
+	window.onload=empezar();
 }
 
 function or_encender() {
@@ -197,4 +197,4 @@ function sound() {
 
 audio.play();
 }
-empezar();
+
