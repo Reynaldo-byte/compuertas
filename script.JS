@@ -32,7 +32,7 @@ function and_apagar() {
 }
 function xor_encender() {
 	document.getElementById("xor_img").src="recursos/XOR_encendido.png"
-	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta XOR</p><br><p>En la electrónica digital hay unas compuertas que no son comunes.Una de ellas es la compuerta XOR ó cinouerta O exclusiva ó compuerta O excluyente</p>";
+	document.getElementById("mensaje").innerHTML="<p class='titulo'>Compuerta XOR</p><br><p>En la electrónica digital hay unas compuertas que no son comunes.Una de ellas es la compuerta XOR ó compuerta O exclusiva ó compuerta O excluyente</p>";
 
 }
 function xor_apagar() {
