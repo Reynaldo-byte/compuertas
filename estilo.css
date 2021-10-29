@@ -28,7 +28,7 @@ only screen and (min-width: 481px)   {
             	#mensaje{
 	position:absolute;
 	   display:flex;
-	top: 40%;
+	top: 50%;
 	border-color: green;
 	border-style: solid;
 
@@ -41,6 +41,7 @@ only screen and (min-width: 481px)   {
                     	#mensaje{
 		position:absolute;
    display:flex;
+				top: 50%;
     border-color: green;
     border-style: solid;
 
