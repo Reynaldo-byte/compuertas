@@ -41,7 +41,7 @@ only screen and (min-width: 481px)   {
                     	#mensaje{
 	
    display:flex;
-				top: 50%;
+				margin-top: 25%;
     border-color: green;
     border-style: solid;
 
@@ -115,7 +115,7 @@ font-family: calibri;
 
 
 
-	margin-left: 40%;
+
 
 }
 #nand{
