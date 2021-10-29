@@ -128,7 +128,7 @@ float:left;
 
     @media only screen and (orientation:portrait) {
         #wrapper { display:none; }
-        #aviso-movil-horizontal { z-index=0;
+        #aviso-movil-horizontal { 
           display:block;
       font-size: 1rem;
                 text-align: center;
