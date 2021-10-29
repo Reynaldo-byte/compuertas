@@ -14,7 +14,7 @@ function atras(){
 window.history.back();
 	
 }
-function comienzo( number){
+function comenzar( number){
 	if(number==0){
 		comenzar()}
 	else{
