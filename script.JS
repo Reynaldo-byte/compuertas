@@ -11,7 +11,7 @@ function empezar() {
 	document.getElementById("siguiente").setAttribute("hidden","");
 	}
 function atras(){
-window.history.back();
+window.href="2.html";
 	
 }
 function comenzar( number){
