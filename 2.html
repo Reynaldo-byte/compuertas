@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<script src="script.JS"></script>
+	<div id="contenido" style="width: 60%;">
+		<p id="titulo">Compuertas Lógicas</p>
+	<script type="text/javascript">comenzar(0)</script>
+		<div id="compuertas" hidden>
+			
+			<p>Selecciona una compuerta lógica</p>
+			<t>
+			<div id="and">
+				<button onclick="window.location='and.html'">
+					<p class="componente">AND</p>
+					<img id="and_img" onmouseover="and_encender();sound()" onmouseout="and_apagar()"   src="recursos/AND_estandar.png">
+				</button>
+
+			</div>
+			
+			<div id="xor" onclick="window.location='xor.html'">
+				<button>
+					<p class="componente">XOR</p>
+					<img id="xor_img" onmouseover="xor_encender();sound()" onmouseout="xor_apagar()" src="recursos/XOR_estandar.png">
+				</button>
+				
+			</div>
+								<div id="or">
+				<button onclick="window.location='or.html'">
+					<p class="componente">OR</p>
+					<img  id="or_img"
+					onmouseover="or_encender();sound()" onmouseout="or_apagar()" src="recursos/OR_estandar.png">
+				</button>
+				
+			</div>
+			<div id="nand">
+				<button onclick="window.location='nand.html'">
+					<p class="componente">NAND</p>
+					<img id="nand_img" onmouseover="nand_encender();sound()" onmouseout="nand_apagar()" src="recursos/NAND_estandar.png">
+				</button>
+				
+			</div>
+			<div id="not">
+				<button onclick="window.location='not.html'">
+					<p class="componente">NOT</p>
+					<img id="not_img" onmouseover="not_encender();sound()" onmouseout="not_apagar()" src="recursos/NOT_estandar.png">
+				</button>
+				
+			</div>
+		</div>
+		<button id="siguiente"  onclick="empezar()">Siguiente</button>
+	
+	</div></t><div id="mensaje"  hidden style="display:none"></div>	
+		        <div id="aviso-movil-horizontal">
+			<p> Para disfrutar de una mejor experiencia rota tu dispositivo</p>
+    <img src="recursos/rotate.gif"/>
+</div>
