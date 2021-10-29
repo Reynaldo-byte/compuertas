@@ -12,7 +12,13 @@ function empezar() {
 	}
 function atras(){
 window.history.back();
-	window.onload=empezar();
+	
+}
+function comienzo( number){
+	if(number==0){
+		comenzar()}
+	else{
+	}
 }
 
 function or_encender() {
